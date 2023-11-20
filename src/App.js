@@ -5,7 +5,7 @@ import NotFoundPage from './components/NotFoundPage/NotFoundPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/store'>
       <Routes>
         <Route path='/products' element={<ProductList />} />
         <Route path='product/:id' element={<ProductInfo />} />
