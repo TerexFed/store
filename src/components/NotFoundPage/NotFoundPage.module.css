@@ -1,0 +1,23 @@
+.notFoundPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+}
+.link{
+    text-decoration: none;
+    background-color: #1B2E35;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.link:hover{
+    color: rgb(138, 125, 125);
+    transition: 0.3s;
+    transform: scale(1.2);
+}

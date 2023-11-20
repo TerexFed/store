@@ -1,0 +1,34 @@
+.ProductItem{
+    border: 10px double black;
+   
+    background-color: #1B2E35;
+
+    margin: 10px;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.ProductItem:hover{
+    box-shadow: 5px 5px 5px 2px rgb(76, 73, 73);
+    transition: 0.1s;
+}
+
+.defaultText {
+    color: white;
+    text-decoration: none;
+}
+
+.defaultText:hover {
+    color: gray;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.active {
+	color: orange
+}
+
